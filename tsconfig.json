@@ -27,8 +27,8 @@
         "noFallthroughCasesInSwitch": false,
 
         /* Module Resolution Options */
-        "baseUrl": "./",
-        "rootDir": "./src/js",
+        "baseUrl": "../../../../",          // Base directory for the parent project
+        "rootDir": "../../../../src/js",    // Root directory containing the sources
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "esModuleInterop": true,
@@ -42,11 +42,11 @@
         ]
     },
     "include": [
-        "./src/js"
+        "../../../../src/js"
     ],
     "exclude": [
-        "node_modules",
-        "dist"
+        "../../../../node_modules",
+        "../../../../dist"
     ],
     "ts-node": {
         "files": true,
