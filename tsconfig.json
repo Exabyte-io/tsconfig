@@ -6,7 +6,7 @@
         "module": "commonjs",
         "allowJs": true,
         "jsx": "react",
-        "incremental": true,
+        // "incremental": true,
         "noEmit": true,
         "outDir": "../../../dist",
         "lib": [
@@ -16,7 +16,7 @@
 
         /* Strict Type-Checking Options */
         "strict": true,
-        "noImplicitAny": false,
+        // "noImplicitAny": false,
         "strictNullChecks": true,
         "experimentalDecorators": true,
 
