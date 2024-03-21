@@ -8,7 +8,7 @@
         "jsx": "react",
         "incremental": true,
         "noEmit": true,
-        "outDir": "./dist",
+        "outDir": "../../../dist",
         "lib": [
             "ES2019",
             "dom"
@@ -27,8 +27,8 @@
         "noFallthroughCasesInSwitch": false,
 
         /* Module Resolution Options */
-        "baseUrl": "../../../../",          // Base directory for the parent project
-        "rootDir": "../../../../src/js",    // Root directory containing the sources
+        "baseUrl": "../../../",          // Base directory for the parent project
+        "rootDir": "../../../src/js",    // Root directory containing the sources
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "esModuleInterop": true,
@@ -42,11 +42,11 @@
         ]
     },
     "include": [
-        "../../../../src/js"
+        "../../../src/js"
     ],
     "exclude": [
-        "../../../../node_modules",
-        "../../../../dist"
+        "../../../node_modules",
+        "../../../dist"
     ],
     "ts-node": {
         "files": true,
