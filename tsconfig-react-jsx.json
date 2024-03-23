@@ -7,7 +7,7 @@
         "allowJs": true,
         "jsx": "react-jsx",
         "noEmitOnError": false,
-        "outDir": "./dist",
+        "outDir": "../../../dist",
         "lib": [
             "dom",
             "dom.iterable",
@@ -25,8 +25,8 @@
         "noFallthroughCasesInSwitch": true,
 
         /* Module Resolution Options */
-        "baseUrl": "../../../",
-        "rootDir": "../../../src",
+        "baseUrl": "../../../",         // Base directory for the parent project
+        "rootDir": "../../../src",      // Root directory containing the sources
         "resolveJsonModule": true,
 
         /* Interoperability Options */
@@ -36,10 +36,10 @@
         "types": []
     },
     "include": [
-        "./src"
+        "../../../src"
     ],
     "exclude": [
-        "node_modules",
-        "dist"
+        "../../../node_modules",
+        "../../../dist"
     ]
 }
