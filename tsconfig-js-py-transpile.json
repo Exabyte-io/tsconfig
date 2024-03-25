@@ -3,7 +3,7 @@
 
         /* Basic Options */
         "target": "es2018",
-        "module": "commonjs",
+        "module": "Node16",
         "allowJs": true,
         "jsx": "react",
         // "incremental": true,
@@ -30,7 +30,7 @@
         /* Module Resolution Options */
         "baseUrl": "../../../",          // Base directory for the parent project
         "rootDir": "../../../src/js",    // Root directory containing the sources
-        "moduleResolution": "node",
+        "moduleResolution": "Node16",
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "declaration": true,
