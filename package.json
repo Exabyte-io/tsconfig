@@ -9,9 +9,7 @@
     },
     "main": "tsconfig.json",
     "files": [
-        "tsconfig-js-py-dev.json",
-        "tsconfig-js-py-transpile.json"
-        "tsconfig-react-jsx.json"
+        "tsconfig*.json"
     ],
     "author": "Exabyte Inc.",
     "license": "Apache-2.0",
