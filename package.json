@@ -9,7 +9,8 @@
     },
     "main": "tsconfig.json",
     "files": [
-        "tsconfig.json",
+        "tsconfig-js-py-dev.json",
+        "tsconfig-js-py-transpile.json"
         "tsconfig-react-jsx.json"
     ],
     "author": "Exabyte Inc.",
