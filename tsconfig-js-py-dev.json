@@ -29,7 +29,7 @@
         /* Module Resolution Options */
         "baseUrl": "../../../",          // Base directory for the parent project
         "rootDir": "../../../",    // Root directory containing the sources
-        "moduleResolution": "Node",
+        "moduleResolution": "Node16",
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "declaration": true,
